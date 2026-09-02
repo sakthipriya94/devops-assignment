@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - ci-test
 
 permissions:
   id-token: write
