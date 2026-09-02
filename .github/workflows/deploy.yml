@@ -18,6 +18,14 @@ env:
 
 jobs:
 
+  oidc-debug:
+    name: OIDC Debug
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Debug OIDC claims
+        uses: github/actions-oidc-debugger@main
+
   build-scan-push:
     name: Build, Scan and Push
     runs-on: ubuntu-latest
