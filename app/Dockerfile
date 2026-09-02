@@ -1,4 +1,5 @@
 FROM node:20-alpine3.23
+RUN apk update && apk upgrade
 
 WORKDIR /app
 
