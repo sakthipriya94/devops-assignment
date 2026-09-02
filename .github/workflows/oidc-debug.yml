@@ -1,4 +1,4 @@
-name: Build, Scan and Push
+name: OIDC Debug
 
 on:
   workflow_dispatch:
@@ -10,6 +10,7 @@ permissions:
 jobs:
   debug:
     runs-on: ubuntu-latest
+
     steps:
       - name: Debug OIDC
         uses: github/actions-oidc-debugger@main
