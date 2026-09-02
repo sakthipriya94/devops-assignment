@@ -1,4 +1,4 @@
-name: OIDC Debug
+name: Build, Scan and Push
 
 on:
   workflow_dispatch:
