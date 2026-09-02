@@ -10,7 +10,6 @@ permissions:
 jobs:
   debug:
     runs-on: ubuntu-latest
-
     steps:
       - name: Debug OIDC
         uses: github/actions-oidc-debugger@main
